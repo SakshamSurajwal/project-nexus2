@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: linear-gradient(red,yellow);
+  padding-top: 10vh;
+}
+
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border:3px solid black;
+  color: white;
+  width:40%;
+  height:80%;
+  margin: auto;
+  background-color:rgba(0,0,0,0.4);
+  border-radius:30px;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border:3px solid black;
+  color: white;
+  width:40%;
+  height:70%;
+  margin:auto;
+  background-color:rgba(0,0,0,0.4);
+  border-radius:30px;
+}
+
+.box{
+  height:45vh;
+  width:30vw
+}
+
+.boxs{
+  height:90vh;
+  width:30vw
+}
+
+@media only screen and (max-width: 1000px) {
+  .App{
+    background-image: linear-gradient(red,yellow);
+  }
+
+  .box{
+    height:30vh;
+    width:50vw;
+    font-size: medium;
+  }
+
+  .boxs{
+  height:100vh;
+  width:60vw;
+  font-size: medium;
+}
+
+  .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:3px solid black;
+    color: white;
+    width:70%;
+    height:50%;
+    margin:auto;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:30px;
+  }
+  
+  .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:3px solid black;
+    color: white;
+    width:80%;
+    height:50%;
+    margin:auto;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:30px;
+  }
+}
+
+
+
